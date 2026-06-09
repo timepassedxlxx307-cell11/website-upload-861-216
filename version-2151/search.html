@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索 - 国产精品视频网</title>
+    <meta name="description" content="国产精品视频网影片搜索，支持按片名、地区、年份、类型和标签查找高清影视内容。">
+    <meta name="keywords" content="国产精品,国产影视,国产电影,国产剧情,国产综艺,国产动漫,在线观看,高清视频,免费播放,影视剧,电视剧,电影大全,综艺节目,动漫动画">
+    <link rel="stylesheet" href="./assets/css/site.css">
+    <script src="./assets/js/search_index.js" defer></script>
+    <script src="./assets/js/site.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="国产精品视频网">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">国产精品视频网</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">分类</a><a class="nav-link" href="./ranking.html">排行</a><a class="nav-link" href="./category-drama.html">剧情精选</a><a class="nav-link" href="./category-action.html">动作热血</a><a class="nav-link" href="./category-comedy.html">喜剧放松</a><a class="nav-link" href="./category-romance.html">爱情都市</a><a class="nav-link" href="./category-suspense.html">悬疑犯罪</a>
+        </nav>
+        <div class="header-actions">
+            <form class="nav-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+                <button type="submit" aria-label="搜索">⌕</button>
+            </form>
+            <button class="menu-toggle" type="button" data-menu-toggle aria-label="展开导航">☰</button>
+        </div>
+    </div>
+    <div class="mobile-nav" data-mobile-nav>
+        <form class="mobile-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav aria-label="移动导航">
+            <a class="mobile-link" href="./index.html">首页</a><a class="mobile-link" href="./categories.html">分类</a><a class="mobile-link" href="./ranking.html">排行</a><a class="mobile-link" href="./category-drama.html">剧情精选</a><a class="mobile-link" href="./category-action.html">动作热血</a><a class="mobile-link" href="./category-comedy.html">喜剧放松</a><a class="mobile-link" href="./category-romance.html">爱情都市</a><a class="mobile-link" href="./category-suspense.html">悬疑犯罪</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="page-hero small-hero">
+        <div class="container">
+            <span class="section-kicker">Search</span>
+            <h1>影片搜索</h1>
+            <p>输入片名、地区、年份、类型或标签，快速查找想看的影视内容。</p>
+        </div>
+    </section>
+    <section class="section white-section">
+        <div class="container search-panel">
+            <form class="big-search" action="./search.html" method="get">
+                <input type="search" name="q" data-search-input placeholder="搜索影片..." autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <div class="search-status" data-search-status>请输入关键词搜索影片</div>
+        </div>
+        <div class="container movie-grid four-col" data-search-results></div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <a class="footer-brand" href="./index.html"><span>▶</span>国产精品视频网</a>
+            <p>国产精品视频网提供最新最全的国产影视剧、电影、综艺、动漫在线观看，高清画质，免费播放，是您观看国产精品内容的首选平台。汇聚国产剧情片、动作片、爱情片、科幻片等各类精品影视作品。</p>
+        </div>
+        <div>
+            <h3>热门分类</h3>
+            <ul><li><a href="./category-drama.html">剧情精选</a></li><li><a href="./category-action.html">动作热血</a></li><li><a href="./category-comedy.html">喜剧放松</a></li><li><a href="./category-romance.html">爱情都市</a></li><li><a href="./category-suspense.html">悬疑犯罪</a></li><li><a href="./category-fantasy.html">奇幻科幻</a></li></ul>
+        </div>
+        <div>
+            <h3>快捷入口</h3>
+            <ul>
+                <li><a href="./categories.html">分类总览</a></li>
+                <li><a href="./ranking.html">热门排行</a></li>
+                <li><a href="./search.html">影片搜索</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <span>© 2026 国产精品视频网</span>
+        <span>高清国产影视剧在线观看平台</span>
+    </div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
